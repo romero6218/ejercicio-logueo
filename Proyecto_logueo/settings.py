@@ -25,7 +25,7 @@ SECRET_KEY = 's#*$&da@bia9d4ujr-s4v8h$tsnm8)d=472#qj7u4+(voq+0@o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["radiant-springs-23890.herokuapp.com"]
 
 
 # Application definition
