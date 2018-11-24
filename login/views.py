@@ -12,11 +12,4 @@ class login(generic.TemplateView):
         context['status'] = a.content
         return self.render_to_response(context)
 
-class signup(generic.TemplateView):
-    template_name = "login.html"
-    def post(self, request, *args, **kwargs):
-        a = requests.post("https://warm-oasis-29730.herokuapp.com/log-in/",
-                          data={"user":request.POST, "password":request.POST})
-        context = {}
-        context['status'] = a.content
-        return self.render_to_response(context)
+
