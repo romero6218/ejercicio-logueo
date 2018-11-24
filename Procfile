@@ -1,1 +1,1 @@
-gunicorn Proyecto_logueo.wsgi
+web: gunicorn Proyecto_logueo.wsgi
